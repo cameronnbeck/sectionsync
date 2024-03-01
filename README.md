@@ -8,9 +8,12 @@ A profile/object will be made of each percussionist that can be saved and stored
 - Attributes storing skill in the following on a scale from 1-10:
   - Keyboard
   - Snare
-  - Aux
+  - Aux(illiary)
   - Timpani
   - Drums
+ 
+  - Note: The items listed above are categories, not parts specifically. Each part will fit in one of these categories.
+    - Example: The Xylophone Part would fit in the Keyboard category. The Percussion 2 part would fit in the Aux category
 
 ## Percussion Parts
 
@@ -24,6 +27,8 @@ Each Song/Piece will have parts associated with them. There will be an ability t
   - Mallets: 5
 - Each part will have an assigned category of one of the 5 attributes listed above upon creation by the user
 - Each part will also have a difficulty on a scale from 1-10 assigned by the user upon creation.
+- NOTE: There are parts that can contain more than one instrument and need a percussionist assigned to each instrument, or multiple instruments on the same part.
+  -Example:The Percussion 1 Part for Clair de Lune has Snare Drum, Triangle, Bass Drum, and Cymbals and needs 3 percussionists. The first to play Snare and Triangle, and the other two to play Cymbals and Bass Drum.
 
 ## Auto-Assign
 
