@@ -28,7 +28,7 @@ Each Song/Piece will have parts associated with them. There will be an ability t
 - Each part will have an assigned category of one of the 5 attributes listed above upon creation by the user
 - Each part will also have a difficulty on a scale from 1-10 assigned by the user upon creation.
 - NOTE: There are parts that can contain more than one instrument and need a percussionist assigned to each instrument, or multiple instruments on the same part.
-  **Example**:The Percussion 1 Part for Clair de Lune has Snare Drum, Triangle, Bass Drum, and Cymbals and needs 3 percussionists. The first to play Snare and Triangle, and the other two to play Cymbals and Bass Drum.
+  **Example**: The Percussion 1 Part for Clair de Lune has Snare Drum, Triangle, Bass Drum, and Cymbals and needs 3 percussionists. The first to play Snare and Triangle, and the other two to play Cymbals and Bass Drum.
 
 ## Auto-Assign
 
