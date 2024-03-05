@@ -1,14 +1,107 @@
-<!DOCTYPE html>
-<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Part Assigner Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
 </head>
-
 <body>
+    <header>
+        <div class="container">
+            <h1>Part Assigner Dashboard</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="percussionists.html">Percussionists</a></li>
+                    <li><a href="pieces.html">Pieces & Parts</a></li>
+                    <li><a href="assignments.html">Assignments</a></li>
+                    <li><a href="reports.html">Reports</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Pieces Section -->
+        <div class="card">
+            <h2>Piece 1</h2>
+            <div class="card-content">
+                <!-- Content related to Piece 1 -->
+            </div>
+            <div class="add-new">
+                <button class="btn">Add New</button>
+            </div>
+        </div>
+        
+        <!-- Pieces Section -->
+        <div class="card">
+            <h2>Piece 2</h2>
+            <div class="card-content">
+                <div class="parts">
+                    <strong>Parts</strong>
+                    <table>
+                        <tr>
+                            <td>1</td>
+                            <td>Keyboard</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Snare</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Aux</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="musicians">
+                    <strong>Musicians</strong>
+                    <table>
+                        <tr>
+                            <td>1</td>
+                            <td>Bob</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Sue</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="add-new">
+                    <button class="btn">Add New</button>
+                </div>
+            </div>
+            <div class="generate-assignments">
+                <button class="btn">Generate Part Assignments</button>
+            </div>
+            <div class="card-content">
+                <strong>Part Assignments</strong>
+                <table>
+                    <tr>
+                        <td>Keyboard</td>
+                        <td>Bob</td>
+                    </tr>
+                    <tr>
+                        <td>Snare</td>
+                        <td>Sue</td>
+                    </tr>
+                    <tr>
+                        <td>Aux</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Add New Piece Button -->
+        <div class="add-new">
+            <button class="btn">Add New Piece</button>
+        </div>
+    </div>
 
+    <footer>
+        <p>&copy; 2024 Part Assigner Web App</p>
+    </footer>
 </body>
-
 </html>
+
