@@ -30,9 +30,11 @@ Each Song/Piece will have parts associated with them. There will be an ability t
 - NOTE: There are parts that can contain more than one instrument and need a percussionist assigned to each instrument, or multiple instruments on the same part.
   **Example**: The Percussion 1 Part for Clair de Lune has Snare Drum, Triangle, Bass Drum, and Cymbals and needs 3 percussionists. The first to play Snare and Triangle, and the other two to play Cymbals and Bass Drum.
 
-## Auto-Assign
-
-The app will then auto-assign each percussionist one piece per song based on the importance of the part and skill level in each area. (unless there are more or fewer parts than percussionists, then adjustments will be made)
+## Mechanics/Relationships
+- Each Peice will have Parts, which is the physical paper sheet music. Each part can have multiple instruments, with one percussionist playing one or multiple instruments on the part.
+- Each Percussionist will have a skill level in a category, seen above, and each Part will have a difficulty and category (same as the categories for the percussionist skill)
+  - When considering auto-assigning parts, we would want the user to input the parts, instruments, and percussionists, and have the program assign parts only to percussionists who have the same skill level as the part or higher.
+  - It is also good for percussionists to not play one instrument the whole time, so the auto-assign would also try to give the percussionist an even spread in each category as much as possible (that can be overridden by the user)
 
 ## Reports and Visual Aids
 
