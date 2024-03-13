@@ -58,6 +58,10 @@ Each Song/Piece will have parts associated with them. There will be an ability t
 2. How often each player is playing what part
 3. List of all of the instruments needed for every piece, broken down by which instruments are on which piece 
 
-## Wireframe
+## Wireframes
 
+New Wireframe Idea:
+![SectionSync Wireframe](https://github.com/calquinton/part-assigner/blob/main/images/SectionSync-Wireframe.png)
+
+Original Wireframe:
 ![Part Assigner Web App Wireframe](https://github.com/calquinton/part-assigner/blob/main/images/Part%20Assigner%20Web%20App%20Wireframe.png)
