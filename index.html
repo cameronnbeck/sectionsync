@@ -7,6 +7,7 @@
     <script src="scripts/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="icon" type="image/png" href="images/favicon_io/favicon.ico">
+    <script rel="stylesheet" href="styles/script.js"></script>
 
 
 </head>
@@ -18,9 +19,6 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="percussionists.html">Percussionists</a></li>
-                    <li><a href="pieces.html">Pieces & Parts</a></li>
-                    <li><a href="assignments.html">Assignments</a></li>
                     <li><a href="reports.html">Reports</a></li>
                 </ul>
             </nav>
@@ -78,10 +76,10 @@
                 </div>
             </div>
             <div class="generate-assignments">
-                <button class="btn">Generate Part Assignments</button>
+                <button id="generateAssignmentsBtn" class="btn">Generate Part Assignments</button>
                 <div id="assignments-chart-container"></div>
-
             </div>
+
             <div class="card-content">
                 <strong>Part Assignments</strong>
                 <table>
