@@ -1,145 +1,110 @@
-/* Reset some default styles */
+/* General Resets */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #FAF3DD; /* Creamy background */
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
   color: #333;
+  line-height: 1.6;
+  padding-bottom: 80px; /* Space for the footer */
 }
 
-/* Container for centering the content */
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: #002E5D; /* Navy Blue */
+  text-decoration: none;
+}
+
 .container {
-  width: 90%;
+  width: 70%;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 10px;
+  padding-bottom: 60px; /* Space above the footer */
 }
 
+/* Header */
 header {
-  background: #F76C6C; /* Warm Red */
-  border-bottom: 2px solid #A8D0E6; /* Soft Blue */
-  padding: 10px 0;
-  margin-bottom: 20px;
+  background: #002E5D; /* BYU-I Navy Blue */
+  color: #FFFFFF;
+  padding: 10px 0; /* Reduced for a slimmer header */
+  margin-bottom: 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100px; /* Logo size reduced for a slimmer header */
+  height: auto;
 }
 
 header h1 {
-  text-align: center;
-  margin-bottom: 10px;
-  color: #FFFFFF; /* White for contrast */
+  font-size: 1.5rem; /* Reduced font size */
+  margin: 0;
 }
 
 /* Navigation Styles */
 nav ul {
   list-style: none;
   text-align: center;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
-  display: inline;
-  margin-right: 20px;
+  margin: 0 15px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #F8E9A1; /* Soft Yellow */
+  color: #FFFFFF;
   padding: 5px 10px;
-  transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-  color: #355C7D; /* Dark Blue */
-  background-color: #F67280; /* Soft Red */
+  background-color: #FFD200; /* Gold */
+  color: #002E5D; /* Navy Blue */
+  border-radius: 5px;
 }
 
-/* Card styles */
-.card {
-  background: #FFFFFF;
-  border: 1px solid #A8D0E6; /* Soft Blue border */
-  border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  padding: 20px;
-  margin-bottom: 20px;
-}
+/* Adjustments for Piece Box, Instruments, and Buttons remain the same */
 
-.card h2 {
-  color: #355C7D; /* Dark Blue */
-  margin-bottom: 15px;
-}
-
-/* Table styles */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 20px;
-}
-
-table, th, td {
-  border: 1px solid #A8D0E6; /* Soft Blue */
-}
-
-th, td {
-  padding: 10px;
-  text-align: left;
-}
-
-th {
-  background-color: #F8E9A1; /* Soft Yellow */
-}
-
-/* Button styles */
-.btn {
-  background-color: #F76C6C; /* Warm Red */
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.btn:hover {
-  background-color: #F67280; /* Soft Red */
-}
-
-/* Footer Styles */
+/* Footer */
 footer {
-  background: #355C7D; /* Dark Blue */
-  color: #fff;
+  background: #002E5D; /* BYU-I Navy Blue */
+  color: #ffffff;
   text-align: center;
-  padding: 10px 0;
-  position: relative;
+  padding: 20px 0; /* Increased padding */
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-footer p {
-  margin: 0;
-}
-
-/* Responsive design */
+/* Responsive Design Adjustments */
 @media (max-width: 768px) {
-  .container {
+  .container, nav ul li a, header h1 {
     width: 95%;
   }
 
   nav ul li {
     display: block;
-    margin-bottom: 10px;
+    margin: 5px auto; /* Centered block for smaller screens */
   }
 
-  nav ul li a {
-    display: block;
+  .instrument-container ul li button, .delete-btn {
+    margin-left: 20px; /* Spacing for buttons */
   }
-
-  .logo {
-    max-width: 100px; 
-    height: auto;
-    margin-right: 20px; 
-    padding-bottom: 20px;
-}
-
 }
