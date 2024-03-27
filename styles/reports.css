@@ -1,0 +1,135 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header {
+    background: #002E5D; /* BYU-I Navy Blue */
+    padding: 10px 0;
+    color: #FFFFFF;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #FFD200; /* Gold */
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main h1 {
+    color: #002E5D; /* Navy Blue */
+    font-size: 2.2rem;
+    padding: 0%;
+    margin: 20px 0;
+}
+
+/* Assignments and details */
+.person-assignments, .piece-box {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.person-assignments h3, .piece-header h3 {
+    margin-bottom: 5px;
+    color: black; /* BYU-I Gold */
+    font-size: 1.8rem;
+}
+
+.person-assignments ul, .instrument-container ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.person-assignments li, .instrument-container ul li {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Buttons */
+.piece-button, .instrument-container button {
+    background-color: #002E5D; /* Navy Blue */
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    margin: 5px 0 5px 20px; /* Adjusted left margin for spacing */
+    cursor: pointer;
+    display: block;
+    width: auto; /* Allows buttons to size with content */
+}
+
+.piece-button:hover, .instrument-container button:hover {
+    background-color: #FFD200; /* Gold */
+}
+
+/* Footer */
+footer {
+    background: #002E5D; /* BYU-I Navy Blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Ensures footer sticks at the bottom */
+    width: 100%;
+}
+span {
+    color: black;
+    font: bold;
+    font-size: large;
+}
