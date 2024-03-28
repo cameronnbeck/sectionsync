@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Symphony No. 5",
+      "instruments": ["Violin", "Piano", "Drums"],
+      "assignments": [
+        { "person": "John Doe", "instrument": "Violin" },
+        { "person": "Jane Smith", "instrument": "Piano" },
+        { "person": "Alice Johnson", "instrument": "Drums" }
+      ]
+    }
+
+  ]
+
+  
