@@ -4,7 +4,7 @@ The app is meant for Percussionists in a Symphony Band or Orchestra who need to 
 
 # Goal 1
 
-Make a working app that allows manual creation of songs with instruments and percussionists assigned to instruments in the song, with charts displaying the information from all peices(songs). Also allow the creation of percussionists that can be chosen for a peice. This is the minimum for what the percussionists would like to have.
+Make a working app that allows manual creation of songs with instruments and percussionists assigned to instruments in the song, with charts displaying the information from all peices(songs). Also allow the creation of percussionists that can be chosen for a peice. This is the minimum for what the percussionists would like to have it.
 
 # Goal 2
 
